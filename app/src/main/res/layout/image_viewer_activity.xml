@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="horizontal"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+    >
+
+<FrameLayout
+    android:id="@+id/camera_preview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1" >
+
+    <ImageView
+        android:id="@+id/imageViewer"
+        android:layout_width="match_parent"
+        android:layout_height="657dp" />
+
+    <Button
+        android:id="@+id/backInImageViewer"
+        android:layout_width="105dp"
+        android:layout_height="66dp"
+        android:layout_gravity="bottom|clip_horizontal|center_horizontal"
+        android:shadowColor="#D1C0C0"
+        android:text="Back" />
+</FrameLayout>
+
+</LinearLayout>
